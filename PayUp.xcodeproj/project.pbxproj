@@ -32,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		645CDAC8161AD18F0024F698 /* AuthToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthToken.h; sourceTree = "<group>"; };
 		649BF7A0161A61A200E22080 /* PayUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		649BF7A4161A61A200E22080 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		649BF7A6161A61A200E22080 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -120,6 +121,7 @@
 				64D5EC95161AB18000F37822 /* AddPersonViewController.xib */,
 				649BF7B3161A61A200E22080 /* AppDelegate.h */,
 				649BF7B4161A61A200E22080 /* AppDelegate.m */,
+				645CDAC8161AD18F0024F698 /* AuthToken.h */,
 				64D5ECA2161AC0DB00F37822 /* Images */,
 				64D5EC9F161ABC3F00F37822 /* MBProgressHUD.h */,
 				64D5ECA0161ABC3F00F37822 /* MBProgressHUD.m */,

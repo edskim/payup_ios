@@ -6,6 +6,7 @@
 //  Copyright (c) 2012 Edward Kim. All rights reserved.
 //
 
+#import "AuthToken.h"
 #import "AddPersonViewController.h"
 #import "MBProgressHUD.h"
 #import "OweMeTableViewController.h"
@@ -119,7 +120,7 @@
                                 @"date", ower.date,
                                 @"requester", ower.requester,
                                 @"number", ower.number, nil];
-        request.params = [NSDictionary dictionaryWithObject:params forKey:@"call"];
+        request.params = [NSDictionary dictionaryWithKeysAndObjects:@"call", params, @"auth_token", AUTH_TOKEN, nil];
         request.onDidLoadResponse = ^(RKResponse *response){
             [MBProgressHUD hideAllHUDsForView:self.tableView animated:YES];
         };
