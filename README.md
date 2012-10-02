@@ -1,7 +1,9 @@
 #PayUp
 
-Simple and silly app made using Twilio.\n
-Add people who owe you money. When the contact is selected, a call is sent to them with an automated voice that states:\n
+Simple and silly app made using Twilio.
+
+Add people who owe you money. When the contact is selected, a call is sent to them with an automated voice that states:
+
 "\<name\>, you owe \<requester\> \<amount\> dollars. Pay this amount in full by \<date\>, or else."
 
 
