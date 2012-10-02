@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		649BF7A5161A61A200E22080 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649BF7A4161A61A200E22080 /* UIKit.framework */; };
+		649BF7A7161A61A200E22080 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649BF7A6161A61A200E22080 /* Foundation.framework */; };
+		649BF7A9161A61A200E22080 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649BF7A8161A61A200E22080 /* CoreGraphics.framework */; };
+		649BF7AF161A61A200E22080 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 649BF7AD161A61A200E22080 /* InfoPlist.strings */; };
+		649BF7B1161A61A200E22080 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 649BF7B0161A61A200E22080 /* main.m */; };
+		649BF7B5161A61A200E22080 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 649BF7B4161A61A200E22080 /* AppDelegate.m */; };
+		649BF7B7161A61A200E22080 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 649BF7B6161A61A200E22080 /* Default.png */; };
+		649BF7B9161A61A200E22080 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 649BF7B8161A61A200E22080 /* Default@2x.png */; };
+		649BF7BB161A61A200E22080 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 649BF7BA161A61A200E22080 /* Default-568h@2x.png */; };
+		649BF7CA161A623500E22080 /* OweMeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649BF7C9161A623500E22080 /* OweMeTableViewController.m */; };
+		64D5EC96161AB18000F37822 /* AddPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D5EC94161AB18000F37822 /* AddPersonViewController.m */; };
+		64D5EC97161AB18000F37822 /* AddPersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64D5EC95161AB18000F37822 /* AddPersonViewController.xib */; };
+		64D5EC9B161AB30600F37822 /* Ower.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D5EC9A161AB30600F37822 /* Ower.m */; };
+		64D5EC9E161AB60A00F37822 /* OwerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D5EC9D161AB60A00F37822 /* OwerTableViewCell.m */; };
+		64D5ECA1161ABC3F00F37822 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D5ECA0161ABC3F00F37822 /* MBProgressHUD.m */; };
+		64D5ECAC161AC1A200F37822 /* fist.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D5ECAB161AC1A200F37822 /* fist.png */; };
+		64D5ECAE161AC1AE00F37822 /* fist@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D5ECAD161AC1AE00F37822 /* fist@2x.png */; };
+		64D5ECB2161AC31A00F37822 /* chuck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D5ECB1161AC31A00F37822 /* chuck@2x.png */; };
+		64D5ECB4161AC32A00F37822 /* chuck.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D5ECB3161AC32A00F37822 /* chuck.png */; };
+		64D5ECB6161AC4F500F37822 /* fist@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D5ECB5161AC4F500F37822 /* fist@2x.png */; };
+		64D5ECB8161AC50B00F37822 /* fist.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D5ECB7161AC50B00F37822 /* fist.png */; };
+		65CEE5C741B2422A992740F4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFA8A91A91845BCAF21D239 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		649BF7A0161A61A200E22080 /* PayUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		649BF7A4161A61A200E22080 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		649BF7A6161A61A200E22080 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		649BF7A8161A61A200E22080 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		649BF7AC161A61A200E22080 /* PayUp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PayUp-Info.plist"; sourceTree = "<group>"; };
+		649BF7AE161A61A200E22080 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		649BF7B0161A61A200E22080 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		649BF7B2161A61A200E22080 /* PayUp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PayUp-Prefix.pch"; sourceTree = "<group>"; };
+		649BF7B3161A61A200E22080 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		649BF7B4161A61A200E22080 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		649BF7B6161A61A200E22080 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		649BF7B8161A61A200E22080 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		649BF7BA161A61A200E22080 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		649BF7C8161A623500E22080 /* OweMeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OweMeTableViewController.h; sourceTree = "<group>"; };
+		649BF7C9161A623500E22080 /* OweMeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OweMeTableViewController.m; sourceTree = "<group>"; };
+		64D5EC93161AB18000F37822 /* AddPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPersonViewController.h; sourceTree = "<group>"; };
+		64D5EC94161AB18000F37822 /* AddPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPersonViewController.m; sourceTree = "<group>"; };
+		64D5EC95161AB18000F37822 /* AddPersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddPersonViewController.xib; sourceTree = "<group>"; };
+		64D5EC99161AB30600F37822 /* Ower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ower.h; sourceTree = "<group>"; };
+		64D5EC9A161AB30600F37822 /* Ower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ower.m; sourceTree = "<group>"; };
+		64D5EC9C161AB60A00F37822 /* OwerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwerTableViewCell.h; sourceTree = "<group>"; };
+		64D5EC9D161AB60A00F37822 /* OwerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwerTableViewCell.m; sourceTree = "<group>"; };
+		64D5EC9F161ABC3F00F37822 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		64D5ECA0161ABC3F00F37822 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		64D5ECAB161AC1A200F37822 /* fist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fist.png; sourceTree = "<group>"; };
+		64D5ECAD161AC1AE00F37822 /* fist@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fist@2x.png"; sourceTree = "<group>"; };
+		64D5ECB1161AC31A00F37822 /* chuck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chuck@2x.png"; sourceTree = "<group>"; };
+		64D5ECB3161AC32A00F37822 /* chuck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chuck.png; sourceTree = "<group>"; };
+		64D5ECB5161AC4F500F37822 /* fist@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fist@2x.png"; sourceTree = "<group>"; };
+		64D5ECB7161AC50B00F37822 /* fist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fist.png; sourceTree = "<group>"; };
+		CBFA8A91A91845BCAF21D239 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF76AF5C1B7849078DA0EAA1 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		649BF79D161A61A200E22080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649BF7A5161A61A200E22080 /* UIKit.framework in Frameworks */,
+				649BF7A7161A61A200E22080 /* Foundation.framework in Frameworks */,
+				649BF7A9161A61A200E22080 /* CoreGraphics.framework in Frameworks */,
+				65CEE5C741B2422A992740F4 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		649BF795161A61A200E22080 = {
+			isa = PBXGroup;
+			children = (
+				64D5ECAD161AC1AE00F37822 /* fist@2x.png */,
+				64D5ECAB161AC1A200F37822 /* fist.png */,
+				649BF7AA161A61A200E22080 /* PayUp */,
+				649BF7A3161A61A200E22080 /* Frameworks */,
+				649BF7A1161A61A200E22080 /* Products */,
+				EF76AF5C1B7849078DA0EAA1 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		649BF7A1161A61A200E22080 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				649BF7A0161A61A200E22080 /* PayUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		649BF7A3161A61A200E22080 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				649BF7A4161A61A200E22080 /* UIKit.framework */,
+				649BF7A6161A61A200E22080 /* Foundation.framework */,
+				649BF7A8161A61A200E22080 /* CoreGraphics.framework */,
+				CBFA8A91A91845BCAF21D239 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		649BF7AA161A61A200E22080 /* PayUp */ = {
+			isa = PBXGroup;
+			children = (
+				64D5EC93161AB18000F37822 /* AddPersonViewController.h */,
+				64D5EC94161AB18000F37822 /* AddPersonViewController.m */,
+				64D5EC95161AB18000F37822 /* AddPersonViewController.xib */,
+				649BF7B3161A61A200E22080 /* AppDelegate.h */,
+				649BF7B4161A61A200E22080 /* AppDelegate.m */,
+				64D5ECA2161AC0DB00F37822 /* Images */,
+				64D5EC9F161ABC3F00F37822 /* MBProgressHUD.h */,
+				64D5ECA0161ABC3F00F37822 /* MBProgressHUD.m */,
+				649BF7C8161A623500E22080 /* OweMeTableViewController.h */,
+				649BF7C9161A623500E22080 /* OweMeTableViewController.m */,
+				64D5EC99161AB30600F37822 /* Ower.h */,
+				64D5EC9A161AB30600F37822 /* Ower.m */,
+				64D5EC9C161AB60A00F37822 /* OwerTableViewCell.h */,
+				64D5EC9D161AB60A00F37822 /* OwerTableViewCell.m */,
+				649BF7AB161A61A200E22080 /* Supporting Files */,
+			);
+			path = PayUp;
+			sourceTree = "<group>";
+		};
+		649BF7AB161A61A200E22080 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				649BF7AC161A61A200E22080 /* PayUp-Info.plist */,
+				649BF7AD161A61A200E22080 /* InfoPlist.strings */,
+				649BF7B0161A61A200E22080 /* main.m */,
+				649BF7B2161A61A200E22080 /* PayUp-Prefix.pch */,
+				649BF7B6161A61A200E22080 /* Default.png */,
+				649BF7B8161A61A200E22080 /* Default@2x.png */,
+				649BF7BA161A61A200E22080 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64D5ECA2161AC0DB00F37822 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				64D5ECB3161AC32A00F37822 /* chuck.png */,
+				64D5ECB1161AC31A00F37822 /* chuck@2x.png */,
+				64D5ECB7161AC50B00F37822 /* fist.png */,
+				64D5ECB5161AC4F500F37822 /* fist@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		649BF79F161A61A200E22080 /* PayUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 649BF7BE161A61A200E22080 /* Build configuration list for PBXNativeTarget "PayUp" */;
+			buildPhases = (
+				649BF79C161A61A200E22080 /* Sources */,
+				649BF79D161A61A200E22080 /* Frameworks */,
+				649BF79E161A61A200E22080 /* Resources */,
+				0C0DE411DFCB44BDBC43FF1C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayUp;
+			productName = PayUp;
+			productReference = 649BF7A0161A61A200E22080 /* PayUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		649BF797161A61A200E22080 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Edward Kim";
+			};
+			buildConfigurationList = 649BF79A161A61A200E22080 /* Build configuration list for PBXProject "PayUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 649BF795161A61A200E22080;
+			productRefGroup = 649BF7A1161A61A200E22080 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				649BF79F161A61A200E22080 /* PayUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		649BF79E161A61A200E22080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649BF7AF161A61A200E22080 /* InfoPlist.strings in Resources */,
+				649BF7B7161A61A200E22080 /* Default.png in Resources */,
+				649BF7B9161A61A200E22080 /* Default@2x.png in Resources */,
+				649BF7BB161A61A200E22080 /* Default-568h@2x.png in Resources */,
+				64D5EC97161AB18000F37822 /* AddPersonViewController.xib in Resources */,
+				64D5ECAC161AC1A200F37822 /* fist.png in Resources */,
+				64D5ECAE161AC1AE00F37822 /* fist@2x.png in Resources */,
+				64D5ECB2161AC31A00F37822 /* chuck@2x.png in Resources */,
+				64D5ECB4161AC32A00F37822 /* chuck.png in Resources */,
+				64D5ECB6161AC4F500F37822 /* fist@2x.png in Resources */,
+				64D5ECB8161AC50B00F37822 /* fist.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C0DE411DFCB44BDBC43FF1C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		649BF79C161A61A200E22080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649BF7B1161A61A200E22080 /* main.m in Sources */,
+				649BF7B5161A61A200E22080 /* AppDelegate.m in Sources */,
+				649BF7CA161A623500E22080 /* OweMeTableViewController.m in Sources */,
+				64D5EC96161AB18000F37822 /* AddPersonViewController.m in Sources */,
+				64D5EC9B161AB30600F37822 /* Ower.m in Sources */,
+				64D5EC9E161AB60A00F37822 /* OwerTableViewCell.m in Sources */,
+				64D5ECA1161ABC3F00F37822 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		649BF7AD161A61A200E22080 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				649BF7AE161A61A200E22080 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		649BF7BC161A61A200E22080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		649BF7BD161A61A200E22080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		649BF7BF161A61A200E22080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF76AF5C1B7849078DA0EAA1 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PayUp/PayUp-Prefix.pch";
+				INFOPLIST_FILE = "PayUp/PayUp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		649BF7C0161A61A200E22080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF76AF5C1B7849078DA0EAA1 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PayUp/PayUp-Prefix.pch";
+				INFOPLIST_FILE = "PayUp/PayUp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		649BF79A161A61A200E22080 /* Build configuration list for PBXProject "PayUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649BF7BC161A61A200E22080 /* Debug */,
+				649BF7BD161A61A200E22080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		649BF7BE161A61A200E22080 /* Build configuration list for PBXNativeTarget "PayUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649BF7BF161A61A200E22080 /* Debug */,
+				649BF7C0161A61A200E22080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 649BF797161A61A200E22080 /* Project object */;
+}
